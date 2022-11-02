@@ -1,15 +1,17 @@
 body{
     background-color: #083B4C;
-    color: red;
+    color:black;
+    font-weight: bold;
 }
 .board-square{
     width: calc(100% / 8);
     aspect-ratio: 1/1;
     display: inline-block;
-    border: 1px solid red;
+    border: 5px solid #083B4C
 }
 .square-input{
     text-align: center;
+  
 }
 .fizz-square{
     background-color:#0CD6A1 ;
@@ -17,6 +19,9 @@ body{
 .buzz-square{
     background-color:#FFD166 ;
 }
+.no-square{
+    background-color:white ;
+}
 .fizzbuzz-square{
-    background-color:#1389B2 ;
+    background-color:#d01fd6 ;
 }
