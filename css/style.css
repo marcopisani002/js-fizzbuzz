@@ -1,0 +1,9 @@
+body{
+    background-color: #083B4C;
+}
+.board-square{
+    width: calc(100% / 11);
+    aspect-ratio: 1/1;
+    display: inline-block;
+    border: 1px solid red;
+}
